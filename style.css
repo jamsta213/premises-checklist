@@ -96,16 +96,19 @@ input[type="radio"] {
 }
 
 /* Section coloring */
-.daily .question-item {
-    background-color: #e0f7fa;  /* soft cyan */
+#dailyTime, #morningQuestions, #afternoonQuestions {
+    border: 1px solid #a3c4ff;
+    background-color: #e6f0ff;
 }
 
-.weekly .question-item {
-    background-color: #fff3e0;  /* soft orange */
+#weeklyQuestions {
+    border: 1px solid #a3e6a3;
+    background-color: #e6ffe6;
 }
 
-.monthly .question-item {
-    background-color: #f3e5f5;  /* soft purple */
+#monthlyQuestions {
+    border: 1px solid #ffcc99;
+    background-color: #fff2e6;
 }
 
 /* Hover effect for all sections */
