@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Premises Checklist</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+    <body>
+    <div class="form-wrapper">
+        <!-- Decorative Left & Right Images -->
+        <img src="https://picsum.photos/80/80?blur=5" class="decor-left" alt="Decoration">
+        <img src="https://picsum.photos/80/80?blur=5" class="decor-right" alt="Decoration">
+
+        <!-- Header Banner -->
+        <div class="header">
+            <img src="https://picsum.photos/800/150?grayscale" alt="Premises Banner" class="header-img">
+            <h2>Premises Checklist</h2>
+        </div>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfznnlSbZKrPC3sdk4gliQU1NDLRmP8frumwEOuBhTG6uXxgg/formResponse" method="POST" target="_self">
+
+    <!-- Frequency selection -->
+    <div id="frequencyOptions">
+    <label>Frequency:</label><br>
+    <input type="radio" name="frequency" value="Daily" id="daily"> Daily<br>
+    <input type="radio" name="frequency" value="Weekly" id="weekly"> Weekly - on Fridays<br>
+    <input type="radio" name="frequency" value="Monthly" id="monthly"> Monthly - End of the month<br>
+    </div>
+
+ <!-- Daily time selection -->
+<div id="dailyTime" class="question-set">
+    <label>Time of Day:</label><br>
+    <input type="radio" name="dailyTime" value="Morning" id="morning"> Morning<br>
+    <input type="radio" name="dailyTime" value="Afternoon" id="afternoon"> Afternoon<br>
+</div>
+
+<!-- Daily Morning Questions -->
+<div id="morningQuestions" class="question-set">
+    <div class="question-item">
+        <span>Open school at 6.00am and unlock external doors/windows</span><br>
+        <label><input type="radio" name="q1" value="Yes"> Yes</label>
+        <label><input type="radio" name="q1" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Milk/fruit brought in and distributed</span><br>
+        <label><input type="radio" name="q2" value="Yes"> Yes</label>
+        <label><input type="radio" name="q2" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Stock toilets, classrooms, admin, with tissue/soap including air freshener</span><br>
+        <label><input type="radio" name="q3" value="Yes"> Yes</label>
+        <label><input type="radio" name="q3" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check building and grounds for cleanliness/hazards</span><br>
+        <label><input type="radio" name="q4" value="Yes"> Yes</label>
+        <label><input type="radio" name="q4" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check playground equipment for damage/vandalism</span><br>
+        <label><input type="radio" name="q5" value="Yes"> Yes</label>
+        <label><input type="radio" name="q5" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Fire doors are unlocked and clear</span><br>
+        <label><input type="radio" name="q6" value="Yes"> Yes</label>
+        <label><input type="radio" name="q6" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Front of school cleaned and cleared of rubbish/weeds before 8.30am</span><br>
+        <label><input type="radio" name="q7" value="Yes"> Yes</label>
+        <label><input type="radio" name="q7" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Gate duty 8.40-8.50am</span><br>
+        <label><input type="radio" name="q8" value="Yes"> Yes</label>
+        <label><input type="radio" name="q8" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>All external gates locked</span><br>
+        <label><input type="radio" name="q9" value="Yes"> Yes</label>
+        <label><input type="radio" name="q9" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Lock premises cupboard</span><br>
+        <label><input type="radio" name="q10" value="Yes"> Yes</label>
+        <label><input type="radio" name="q10" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check deliveries and move to correct location</span><br>
+        <label><input type="radio" name="q11" value="Yes"> Yes</label>
+        <label><input type="radio" name="q11" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check Forest School for hazards/dead animals</span><br>
+        <label><input type="radio" name="q12" value="Yes"> Yes</label>
+        <label><input type="radio" name="q12" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check Premises Jobs List</span><br>
+        <label><input type="radio" name="q13" value="Yes"> Yes</label>
+        <label><input type="radio" name="q13" value="No"> No</label>
+    </div>
+</div>
+
+<!-- Daily Afternoon Questions -->
+<div id="afternoonQuestions" class="question-set">
+    <div class="question-item">
+        <span>Empty external bins, check playground for litter</span><br>
+        <label><input type="radio" name="q14" value="Yes"> Yes</label>
+        <label><input type="radio" name="q14" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Non-essentials electricals turned off (heaters & fans etc)</span><br>
+        <label><input type="radio" name="q15" value="Yes"> Yes</label>
+        <label><input type="radio" name="q15" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Cleaners have completed all tasks before leaving</span><br>
+        <label><input type="radio" name="q16" value="Yes"> Yes</label>
+        <label><input type="radio" name="q16" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Lock/secure external doors/windows</span><br>
+        <label><input type="radio" name="q17" value="Yes"> Yes</label>
+        <label><input type="radio" name="q17" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Cleaning cupboard is locked and cleaning products are secure</span><br>
+        <label><input type="radio" name="q18" value="Yes"> Yes</label>
+        <label><input type="radio" name="q18" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Premises office has been cleaned and desk wiped down</span><br>
+        <label><input type="radio" name="q19" value="Yes"> Yes</label>
+        <label><input type="radio" name="q19" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Ensure nobody is left on site and set intruder alarm at 6pm Mon - Fri</span><br>
+        <label><input type="radio" name="q20" value="Yes"> Yes</label>
+        <label><input type="radio" name="q20" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Jobs list checked and actioned</span><br>
+        <label><input type="radio" name="q21" value="Yes"> Yes</label>
+        <label><input type="radio" name="q21" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check emails and respond/action</span><br>
+        <label><input type="radio" name="q22" value="Yes"> Yes</label>
+        <label><input type="radio" name="q22" value="No"> No</label>
+    </div>
+</div>
+
+<!-- Weekly Questions -->
+<div id="weeklyQuestions" class="question-set">
+    <div class="question-item">
+        <span>Fire alarm test - separate form</span><br>
+        <label><input type="radio" name="q23" value="Yes"> Yes</label>
+        <label><input type="radio" name="q23" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>External bins emptied/changed (including carpark), twice during summer</span><br>
+        <label><input type="radio" name="q24" value="Yes"> Yes</label>
+        <label><input type="radio" name="q24" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Bins collected by Tuesday PM</span><br>
+        <label><input type="radio" name="q25" value="Yes"> Yes</label>
+        <label><input type="radio" name="q25" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check internal & external lights</span><br>
+        <label><input type="radio" name="q26" value="Yes"> Yes</label>
+        <label><input type="radio" name="q26" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check fire equipment for damage</span><br>
+        <label><input type="radio" name="q27" value="Yes"> Yes</label>
+        <label><input type="radio" name="q27" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check sanitary bins are in good order</span><br>
+        <label><input type="radio" name="q28" value="Yes"> Yes</label>
+        <label><input type="radio" name="q28" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check childrens toilet locks are working</span><br>
+        <label><input type="radio" name="q29" value="Yes"> Yes</label>
+        <label><input type="radio" name="q29" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>External escape staircases and gangways</span><br>
+        <label><input type="radio" name="q30" value="Yes"> Yes</label>
+        <label><input type="radio" name="q30" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Run water taps</span><br>
+        <label><input type="radio" name="q31" value="Yes"> Yes</label>
+        <label><input type="radio" name="q31" value="No"> No</label>
+    </div>
+</div>
+
+<!-- Monthly Questions -->
+<div id="monthlyQuestions" class="question-set">
+    <div class="question-item">
+        <span>Internal door checks - separate form *</span><br>
+        <label><input type="radio" name="q32" value="Yes"> Yes</label>
+        <label><input type="radio" name="q32" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Emergency lights test - separate form *</span><br>
+        <label><input type="radio" name="q33" value="Yes"> Yes</label>
+        <label><input type="radio" name="q33" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>External bins cleaned *</span><br>
+        <label><input type="radio" name="q34" value="Yes"> Yes</label>
+        <label><input type="radio" name="q34" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Consumables received from S&D and signed for and DATED *</span><br>
+        <label><input type="radio" name="q35" value="Yes"> Yes</label>
+        <label><input type="radio" name="q35" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Stock check and order where necessary *</span><br>
+        <label><input type="radio" name="q36" value="Yes"> Yes</label>
+        <label><input type="radio" name="q36" value="No"> No</label>
+    </div>
+    <div class="question-item">
+        <span>Check all toilet air fresheners and batteries *</span><br>
+        <label><input type="radio" name="q37" value="Yes"> Yes</label>
+        <label><input type="radio" name="q37" value="No"> No</label>
+    </div>
+</div>
+
+
+        <input type="submit" value="Submit Checklist">
+    </form>
+
+<script>
+const dailyRadio = document.getElementById('daily');
+const weeklyRadio = document.getElementById('weekly');
+const monthlyRadio = document.getElementById('monthly');
+
+const dailyTime = document.getElementById('dailyTime');
+const morningRadio = document.getElementById('morning');
+const afternoonRadio = document.getElementById('afternoon');
+
+const morningSet = document.getElementById('morningQuestions');
+const afternoonSet = document.getElementById('afternoonQuestions');
+const weeklySet = document.getElementById('weeklyQuestions');
+const monthlySet = document.getElementById('monthlyQuestions');
+
+function updateDisplay() {
+    // Hide all question sets initially
+    dailyTime.style.display = 'none';
+    morningSet.style.display = 'none';
+    afternoonSet.style.display = 'none';
+    weeklySet.style.display = 'none';
+    monthlySet.style.display = 'none';
+
+    // Show questions only for the selected frequency
+    if(dailyRadio.checked){
+        dailyTime.style.display = 'block';
+        if(morningRadio.checked) morningSet.style.display = 'block';
+        else if(afternoonRadio.checked) afternoonSet.style.display = 'block';
+    } else if(weeklyRadio.checked){
+        weeklySet.style.display = 'block';
+    } else if(monthlyRadio.checked){
+        monthlySet.style.display = 'block';
+    }
+}
+
+// Event listeners for all radios
+[dailyRadio, weeklyRadio, monthlyRadio, morningRadio, afternoonRadio].forEach(radio => {
+    radio.addEventListener('change', updateDisplay);
+});
+
+// Initialize on page load
+updateDisplay();
+</script>
+
+
+</body>
+</html>
