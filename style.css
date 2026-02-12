@@ -79,6 +79,16 @@ form {
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
+/* Highlight question-item when radio is checked */
+.question-item input[type="radio"]:checked {
+    /* This applies styling when a radio button is checked */
+}
+
+.question-item:has(input[type="radio"]:checked) {
+    background-color: #cce7f0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
 .radios {
     display: flex;
     gap: 10px;
@@ -157,5 +167,11 @@ input[type="radio"] {
     .decor-left, .decor-right {
         width: 50px;
         height: 50px;
+    }
+    
+    /* Keep color change visible on mobile after selection */
+    .question-item:has(input[type="radio"]:checked) {
+        background-color: #cce7f0;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
     }
 }
