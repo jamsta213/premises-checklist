@@ -8,41 +8,7 @@ body {
     justify-content: center;
 }
 
-/* Default radio size (desktop) */
-input[type="radio"] {
-    width: 16px;
-    height: 16px;
-}
-
-/* Mobile-friendly radios */
-@media (max-width: 600px) {
-    input[type="radio"] {
-        width: 24px;
-        height: 24px;
-    }
-
-    .question-item {
-        flex-direction: column;      /* stack question and radios */
-        align-items: flex-start;     /* left-align everything */
-        padding: 15px;
-    }
-
-    .radios {
-        margin-top: 8px;             /* space above radio buttons */
-        gap: 20px;                   /* bigger gap for touch */
-    }
-
-    span {
-        margin-right: 0;             /* remove horizontal spacing */
-        font-size: 1.1em;            /* slightly bigger text */
-    }
-
-    form {
-        padding: 20px;               /* a bit more padding on mobile */
-    }
-}
-
-
+/* Form Wrapper */
 .form-wrapper {
     position: relative;
     width: 100%;
@@ -121,4 +87,72 @@ form {
 span {
     flex: 1;
     margin-right: 15px;
+}
+
+/* Default radio size (desktop) */
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+}
+
+/* Section coloring */
+.daily .question-item {
+    background-color: #e0f7fa;  /* soft cyan */
+}
+
+.weekly .question-item {
+    background-color: #fff3e0;  /* soft orange */
+}
+
+.monthly .question-item {
+    background-color: #f3e5f5;  /* soft purple */
+}
+
+/* Hover effect for all sections */
+.daily .question-item:hover,
+.weekly .question-item:hover,
+.monthly .question-item:hover {
+    background-color: #cce7f0;  /* slightly darker highlight */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+    input[type="radio"] {
+        width: 24px;
+        height: 24px;
+    }
+
+    .question-item {
+        flex-direction: column;      /* stack question and radios */
+        align-items: flex-start;     /* left-align everything */
+        padding: 15px;
+        margin: 15px 0;              /* slightly more spacing for touch */
+    }
+
+    .radios {
+        margin-top: 8px;             /* space above radio buttons */
+        gap: 20px;                   /* bigger gap for touch */
+    }
+
+    span {
+        margin-right: 0;             /* remove horizontal spacing */
+        font-size: 1.1em;            /* slightly bigger text */
+    }
+
+    form {
+        padding: 20px;               /* a bit more padding on mobile */
+    }
+
+    .form-wrapper {
+        width: 95%;                  /* nearly full width on mobile */
+    }
+
+    .header-img {
+        max-width: 100%;             /* scale banner for small screens */
+    }
+
+    .decor-left, .decor-right {
+        width: 50px;
+        height: 50px;
+    }
 }
