@@ -8,6 +8,41 @@ body {
     justify-content: center;
 }
 
+/* Default radio size (desktop) */
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+}
+
+/* Mobile-friendly radios */
+@media (max-width: 600px) {
+    input[type="radio"] {
+        width: 24px;
+        height: 24px;
+    }
+
+    .question-item {
+        flex-direction: column;      /* stack question and radios */
+        align-items: flex-start;     /* left-align everything */
+        padding: 15px;
+    }
+
+    .radios {
+        margin-top: 8px;             /* space above radio buttons */
+        gap: 20px;                   /* bigger gap for touch */
+    }
+
+    span {
+        margin-right: 0;             /* remove horizontal spacing */
+        font-size: 1.1em;            /* slightly bigger text */
+    }
+
+    form {
+        padding: 20px;               /* a bit more padding on mobile */
+    }
+}
+
+
 .form-wrapper {
     position: relative;
     width: 100%;
