@@ -1,0 +1,89 @@
+/* Page & Form Wrapper */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Decorative Images */
+.decor-left, .decor-right {
+    position: absolute;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    opacity: 0.2;
+}
+
+.decor-left {
+    left: -90px;
+}
+
+.decor-right {
+    right: -90px;
+}
+
+/* Header Banner */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+/* Centered Title */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Form */
+form {
+    background: linear-gradient(145deg, #f0f8ff, #e6f0ff);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Items */
+.question-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.question-item:hover {
+    background-color: #f0f8ff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.radios {
+    display: flex;
+    gap: 10px;
+}
+
+span {
+    flex: 1;
+    margin-right: 15px;
+}
